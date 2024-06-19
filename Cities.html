@@ -4,29 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap.css"/>
+    <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+  />
 </header>
 <body>
+        <!--NAV START -->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"
+                >Home</a>
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Cities.html">Cities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Famous-Attractions.html"
+                  >Famous Attractions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html"
+                  >Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--NAV END-->
     <h1>Cities</h1>
     <p>
         Come visit the most unforgetable cities in Washington State. Make sure to get a souvenir to remember your trip!
     </p>
-    <div>
-            <a href="index.html">Home</a>
-            <a href="Cities.html">Cities</a>
-            <a href="Famous-Attractions.html">Famous Attractions</a>
-    </div> 
-
     <img src="https://wallpapercave.com/wp/wp2091388.jpg" height=300px width="350" alt="A photo of the Seattle Skyline">
     <img src="https://traveladventuretrip.com/wp-content/uploads/2024/01/img_65a9207c0e49c.png" height=300px width="350" alt="A photo of road in Bellingham">
     <img src="https://blog.wa.aaa.com/wp-content/uploads/2019/11/snohomish-river.jpg" height=300px width="350" alt="A photo of the Snohomish river">
         
-<p>
-    <ul>
-        <li>Seattle</li>
-        <li>Bellingham</li>
-        <li>Snohomish</li>
-    </ul>
+<p class="fs-1 container">Seattle
+    <div class="container"> Visit the bustling city on the water! You can check out the Space Needle that was built in 1962 for the Seattle World’s Fair. Grab some local produce and crafts from Pikes Place Market. Don't forget to sign up for Bill Speidel's Underground walking tour located in Pioneer Square to learn all the details about the city.
+    </div>
+</p>   
+<p class="fs-1 container">Bellingham
+    <div class="container"> Check out Washington's favorite scavenger! Enjoy some whale watching in Bellingham Bay. Finally, end your day with a trip to Mt. Baker via the Bellingham to Mt. Baker tour where you can view the live volcano Mt.Baker taht boarders Canada and North Cascades National Park.
+    </div>
+</p>
+<p class="fs-1 container">Snohomish
+    <div class="container"> Welcome to Snohomish where you can take a view the below views from up high in via the Cascade View Sunrise Shared Balloon Ride. Vist in the summer and you can take part in the Kla Ha Ya Days festival. Also if you're a history buff than be sure to vist the Blackman House Museum for some local Snohomish history.       
+    </div>
 </p>
 </body>
 </html>

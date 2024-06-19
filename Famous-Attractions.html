@@ -4,20 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
   </head>
   <body>
+     <!--NAV START -->
+     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
+              >Home</a>
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cities.html">Cities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Famous-Attractions.html"
+                >Famous Attractions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html"
+                >Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--NAV END-->
     <h1>Famous Attractions</h1>
     <p>
       The most serene and picturesque areas of Washington State. Make sure to
       take lots of pictures!
     </p>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="Cities.html">Cities</a>
-      <a href="Famous-Attractions.html">Famous Attractions</a>
-    </div>
-
     <img
       src="https://www.mountaineers.org/blog/mount-rainier-national-park-will-accept-online-reservations-in-2017/@@images/image"
       height="300px"
@@ -30,5 +66,13 @@
       width="350"
       alt="A phot of Orcas Island"
     />
+    <p class="fs-1 container">Mount Rainier
+      <div class="container"> Are you ready to visit the tallest mountain in the state of Washington? This active volcano, currently at rest, last erupted in 1894. There are many activities for kids and families at Mount Rainier Park. As well, as breathtaking views to experience.
+      </div>
+  </p>   
+  <p class="fs-1 container">Orcas Island
+      <div class="container"> Several whale watching tours take place on this charming island. If you've always wanted to try sailing you can book a three hour sailing excursion where you learn all about sailing including terminology and navigation.
+      </div>
+  </p>
   </body>
 </html>
