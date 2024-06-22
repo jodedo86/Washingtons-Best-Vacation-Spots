@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--BOOTSWATCH 'LUX' THEME APPLIED-->
+    <!-- DOWNLOAD THE bootstrap.min.css VERSION-->
     <link
     rel="stylesheet"
     href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -13,7 +15,7 @@
         <!--NAV START -->
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Navigation</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -49,25 +51,38 @@
         </div>
       </nav>
       <!--NAV END-->
+
+<!--sectiopn 1-->      
     <h1>Cities</h1>
-    <p>
-        Come visit the most unforgetable cities in Washington State. Make sure to get a souvenir to remember your trip!
-    </p>
-    <img src="https://wallpapercave.com/wp/wp2091388.jpg" height=300px width="350" alt="A photo of the Seattle Skyline">
-    <img src="https://traveladventuretrip.com/wp-content/uploads/2024/01/img_65a9207c0e49c.png" height=300px width="350" alt="A photo of road in Bellingham">
-    <img src="https://blog.wa.aaa.com/wp-content/uploads/2019/11/snohomish-river.jpg" height=300px width="350" alt="A photo of the Snohomish river">
-        
-<p class="fs-1 container">Seattle
-    <div class="container"> Visit the bustling city on the water! You can check out the Space Needle that was built in 1962 for the Seattle World’s Fair. Grab some local produce and crafts from Pikes Place Market. Don't forget to sign up for Bill Speidel's Underground walking tour located in Pioneer Square to learn all the details about the city.
+    <h5 class="text-center py-3 mt-2">
+        Come visit the most unforgetable cities in Washington State. Make sure to get a souvenir to remember your trip!</h5>
+  
+  <!--Bootstrap Grid-->
+  <div class="container-fluid">
+    <div class="row flex-wrap"> 
+      <div class="col-sm-4 col-md-6">
+      <img 
+      src="https://wallpapercave.com/wp/wp2091388.jpg" class="img-fluid mb-4"alt ="A photo of the Seattle Skyline">
+      <img src="https://4.bp.blogspot.com/-0qGQShPfJD0/TqPIgpu01UI/AAAAAAAABq4/fQOw74G2Zzo/s1600/IMG_5810.jpg" class="img-fluid mb-4" alt="A photo of bridge in Bellingham">
+      <img src="https://blog.wa.aaa.com/wp-content/uploads/2019/11/snohomish-river.jpg" class="img-fluid mb-4" alt="A photo of the Snohomish river">   
     </div>
-</p>   
-<p class="fs-1 container">Bellingham
-    <div class="container"> Check out Washington's favorite scavenger! Enjoy some whale watching in Bellingham Bay. Finally, end your day with a trip to Mt. Baker via the Bellingham to Mt. Baker tour where you can view the live volcano Mt.Baker taht boarders Canada and North Cascades National Park.
+    
+   <!--Bootstrap Grid--> 
+    <div class="col-sm-8 col-md-6">
+      <p class="fs-1 container">Seattle
+      <div class="container-fluid"> Visit the bustling city on the water! You can check out the Space Needle that was built in 1962 for the Seattle World’s Fair. Grab some local produce and crafts from Pikes Place Market. Don't forget to sign up for Bill Speidel's Underground walking tour located in Pioneer Square to learn all the details about the city.
+      </div>
+      </p>   
+      <p class="fs-1 container">Bellingham
+      <div class="container-fluid"> Check out Washington's favorite scavenger! Enjoy some whale watching in Bellingham Bay. Finally, end your day with a trip to Mt. Baker via the Bellingham to Mt. Baker tour where you can view the live volcano Mt.Baker taht boarders Canada and North Cascades National Park.
+      </div>
+      </p>
+      <p class="fs-1 container">Snohomish
+      <div class="container-fluid"> Welcome to Snohomish where you can take a view the below views from up high in via the Cascade View Sunrise Shared Balloon Ride. Vist in the summer and you can take part in the Kla Ha Ya Days festival. Also if you're a history buff than be sure to vist the Blackman House Museum for some local Snohomish history.
+      </div>
+      </p>
     </div>
-</p>
-<p class="fs-1 container">Snohomish
-    <div class="container"> Welcome to Snohomish where you can take a view the below views from up high in via the Cascade View Sunrise Shared Balloon Ride. Vist in the summer and you can take part in the Kla Ha Ya Days festival. Also if you're a history buff than be sure to vist the Blackman House Museum for some local Snohomish history.       
-    </div>
-</p>
+</div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

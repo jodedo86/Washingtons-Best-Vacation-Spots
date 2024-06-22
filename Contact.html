@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--BOOTSWATCH 'LUX' THEME APPLIED-->
+    <!-- DOWNLOAD THE bootstrap.min.css VERSION-->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -13,7 +15,7 @@
         <!--NAV START -->
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#">Navigation</a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -50,22 +52,68 @@
           </nav>
           <!--NAV END-->
      
-          
-    <h3>Thanks for checking out our page! If you would like more information please provide your contact information below.</h3>    
+    <!--Section 3-->      
+    <h3 class="text-center">Thanks for checking out our page! If you would like more information please provide your contact information below.</h3>    
 
-     <div class py-5 mt-4="row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <!--Bootstrap Grid-->
+    
+<form class="container-fluid">
+    <div class py-5 mt-4="row">
+        <div class="col-sm-4 col-md-6">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        <div class="col-sm-4 col-md-6">
         </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-          </div>
-      </div> 
-      <img class="img-fluid"src="https://1187604958.rsc.cdn77.org/data/images/full/28734/1-jpg.jpg" 
-       alt="A photo of Pikes Place Market" width="600" height="475"/>
-    </form>
-  </body>
+        <div class="col-sm-4 col-md-6">
+        <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+        </div>
+    </div> 
+</form>   
+    <div class py-5 mt-4="row flex-wrap">
+      <div class="col-sm-8 col-md-6">    
+    <h3 class="text-left py-1 mt-3">Attractions List</h3>
+        <table class="table table-hover py-5 mt-4">
+          <thead>
+            <tr>
+            <th scope="col">Attraction</th>
+            <th scope="col">Location</th>
+            </tr>
+          </thead>
+        <tbody>
+        <tr class="table-active">
+          <th scope="row">Space Needle</th>
+          <td>400 Broad St.
+            Seattle, WA 98109</td>
+        </tr>
+        <tr>
+          <th scope="row">Seattle Great Wheel</th>
+          <td>Column Pier 57 - Miners Landing
+            1301 Alaskan Way
+            Seattle, WA 98101</td>   
+        </tr>
+        <tr class="table-primary">
+          <th scope="row">Pike Place Market</th>
+          <td>Column 85 Pike Street, Room 500
+            Seattle, WA 98101</td>        
+        </tr>
+        <tr class="table-secondary">
+          <th scope="row">First Starbucks</th>
+          <td>Column 1912 Pike Pl
+            Seattle, WA 98101</td>         
+        </tr>
+        <tr class="table-success">
+          <th scope="row">Woodland Park Zoo</th>
+          <td>Column 5500 Phinney Ave. N, Seattle, WA 98103-5897</td>         
+        </tr>
+      </tbody>
+    </table>
+  </div> 
+  <img class="img-fluid mb-4"src="https://1187604958.rsc.cdn77.org/data/images/full/28734/1-jpg.jpg" 
+   alt="A photo of Pikes Place Market" width="600" height="475"/>
+  </div> 
+</div>
+</div>  
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
 </html>

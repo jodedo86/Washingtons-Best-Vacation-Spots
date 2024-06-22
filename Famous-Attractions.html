@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--BOOTSWATCH 'LUX' THEME APPLIED-->
+    <!-- DOWNLOAD THE bootstrap.min.css VERSION-->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -13,7 +15,7 @@
      <!--NAV START -->
      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Navigation</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -49,30 +51,33 @@
       </div>
     </nav>
     <!--NAV END-->
+    
+    
+  <!--Section 2-->  
     <h1>Famous Attractions</h1>
-    <p>
+    <h5 class="text-center py-3 mt-2">
       The most serene and picturesque areas of Washington State. Make sure to
       take lots of pictures!
-    </p>
-    <img
-      src="https://www.mountaineers.org/blog/mount-rainier-national-park-will-accept-online-reservations-in-2017/@@images/image"
-      height="300px"
-      width="350"
-      alt="A photo of Mount Rainier"
-    />
-    <img
-      src="https://img.marinas.com/v2/ead90bbb53665030995ba6b7b755578ecd75db26b89e0ac24afcbff0e9716978.jpg"
-      height="300px"
-      width="350"
-      alt="A phot of Orcas Island"
-    />
-    <p class="fs-1 container">Mount Rainier
-      <div class="container"> Are you ready to visit the tallest mountain in the state of Washington? This active volcano, currently at rest, last erupted in 1894. There are many activities for kids and families at Mount Rainier Park. As well, as breathtaking views to experience.
+    </h5>
+<!--Bootstrap Grid-->
+    <div class="container-fluid">
+      <div class="row flex-wrap">
+        <div class="col-sm-4 col-md-6">
+        <img src="https://www.mountaineers.org/blog/mount-rainier-national-park-will-accept-online-reservations-in-2017/@@images/image"
+      class="img-fluid mb-4" alt="A photo of Mount Rainier"/>
+    <img src="https://img.marinas.com/v2/ead90bbb53665030995ba6b7b755578ecd75db26b89e0ac24afcbff0e9716978.jpg"
+    class="img-fluid mb-4"alt="A phot of Orcas Island"/>
+        </div>
+  <div class="col-sm-8 col-md-6">
+  <p class="fs-1 container">Mount Rainier
+      <div class="container-fluid"> Are you ready to visit the tallest mountain in the state of Washington? This active volcano, currently at rest, last erupted in 1894. There are many activities for kids and families at Mount Rainier Park. As well, as breathtaking views to experience.
       </div>
   </p>   
   <p class="fs-1 container">Orcas Island
-      <div class="container"> Several whale watching tours take place on this charming island. If you've always wanted to try sailing you can book a three hour sailing excursion where you learn all about sailing including terminology and navigation.
+      <div class="container-fluid"> Several whale watching tours take place on this charming island. If you've always wanted to try sailing you can book a three hour sailing excursion where you learn all about sailing including terminology and navigation.
       </div>
   </p>
+</div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
